@@ -44,6 +44,8 @@ $('.menupop').on('click',function(){
     $('.menupop.open').css('display','block');
     $('.hiddenmenu').css('display','block');
     $('.maximize, .discover, .explore').css('display','block');
+    $('.float-left').css('display','none');
+    $('.main-nav *').css('display','none');
   });
   $('.menupop.open').on('click',function(){
      $('.menuItems').css('display','none');
@@ -52,6 +54,8 @@ $('.menupop').on('click',function(){
     $('.menupop.open').css('display','none');
     //$('.menupop.open').removeClass('open');
     $('.menupop > div').css('display','block');
+    $('.float-left').css('display','block');
+    $('.main-nav *').css('display','block');
   });
   // Smooth scroll for the navigation and links with .scrollto classes
   $('.main-nav a, .mobile-nav a, .scrollto').on('click', function() {

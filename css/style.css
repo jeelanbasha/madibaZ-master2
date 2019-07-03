@@ -46,7 +46,7 @@ h5,
 h6 {
   /*font-family: "Montserrat", sans-serif;*/
   font-size: 50px;
-  font-family: "Tungsten A", "Tungsten B", "Khand", sans-serif;
+  font-family: Audrey-BoldOblique;
   line-height: 70px;
   font-weight: 500;
   /*margin: 0 0 20px 0;
@@ -146,7 +146,7 @@ h6 {
 #header.header-scrolled,
 #header.header-pages {
   height: 83px;
-  padding: 10px 0;
+  padding: 0px 0;
 }
 
 #header .logo h1 {
@@ -242,7 +242,7 @@ h6 {
 .menuItems {
     flex: 1;
     background-color: #fff;
-    background-image: url("../img/tile.png");
+    background-image: url("../img/menu1.png");
 
     background-repeat: repeat;
    /* -webkit-background-size: cover;
@@ -458,6 +458,7 @@ background-size: 100% auto ;
 
 .main-nav,
 .main-nav * {
+  display: block;
   margin: 0;
   padding: 0;
   list-style: none;
